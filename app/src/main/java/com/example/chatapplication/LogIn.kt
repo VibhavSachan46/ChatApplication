@@ -55,6 +55,7 @@ class LogIn : AppCompatActivity() {
 
                     // code for logging in user
                     val intent = Intent(this@LogIn, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
 
                 } else {

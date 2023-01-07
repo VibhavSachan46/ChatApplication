@@ -53,6 +53,7 @@ class SignUp : AppCompatActivity() {
 
                     addUSerToDatabase(name ,email ,mAuth.currentUser?.uid!!) // uid we will get from mAuth
                     val intent = Intent(this@SignUp, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
 
                 } else {
