@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SociaHubs</string>
+    <string name="app_name">SociaHub</string>
     <string name="email">Enter Email..</string>
     <string name="enter_password">Enter Password..</string>
     <string name="log_in">Log In</string>
